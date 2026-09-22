@@ -1,0 +1,13 @@
+# Downloaded data (default output directory). Remove this line if you want to
+# commit your question collection to the repository.
+/data/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+*.egg-info/
