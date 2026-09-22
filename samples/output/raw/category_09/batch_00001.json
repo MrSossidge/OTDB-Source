@@ -1,0 +1,98 @@
+{
+  "schema": "otdb-raw-batch/1",
+  "fetched_at": "2026-09-22T22:52:30Z",
+  "category_id": 9,
+  "request": {
+    "endpoint": "api.php",
+    "params": {
+      "amount": 7,
+      "category": 9,
+      "encode": "url3986"
+    }
+  },
+  "response": {
+    "response_code": 0,
+    "results": [
+      {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "General%20Knowledge",
+        "question": "Which%20of%20the%20following%20carbonated%20soft%20drinks%20were%20introduced%20first%3F",
+        "correct_answer": "Dr.%20Pepper",
+        "incorrect_answers": [
+          "Coca-Cola",
+          "Sprite",
+          "Mountain%20Dew"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "General%20Knowledge",
+        "question": "What%20are%20the%20tallest%20twin%20buildings%20in%20the%20world%2C%20with%20a%20height%20of%201%2C483%20ft%20%28451.9%20m%29%3F",
+        "correct_answer": "Petronas%20Twin%20Towers%2C%20Malaysia",
+        "incorrect_answers": [
+          "Emirates%20Towers%2C%20United%20Arab%20Emirates",
+          "Huaguoyuan%20Towers%2C%20China",
+          "Palm%20Towers%2C%20Qatar"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "General%20Knowledge",
+        "question": "What%20is%20Cuba%27s%20official%2C%20most%20widely%20spoken%20language%3F",
+        "correct_answer": "Spanish",
+        "incorrect_answers": [
+          "Portuguese",
+          "French",
+          "Italian"
+        ]
+      },
+      {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "General%20Knowledge",
+        "question": "%28Synthetic%20sample%29%20Water%20boils%20at%20100%20%C2%B0C%20at%20sea%20level.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "General%20Knowledge",
+        "question": "%28Synthetic%20sample%2C%20flawed%29%20Which%20record%20is%20missing%20two%20incorrect%20answers%3F",
+        "correct_answer": "This%20one",
+        "incorrect_answers": [
+          "Not%20this%20one"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "General%20Knowledge",
+        "question": "%28Synthetic%20sample%2C%20flawed%29%20Which%20record%20repeats%20an%20answer%3F",
+        "correct_answer": "Repeated",
+        "incorrect_answers": [
+          "repeated%20",
+          "Other",
+          "Another"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "General%20Knowledge",
+        "question": "What%20is%20Cuba%27s%20official%2C%20most%20widely%20spoken%20language%3F",
+        "correct_answer": "Spanish%20%28Cuban%29",
+        "incorrect_answers": [
+          "English",
+          "Creole",
+          "Catalan"
+        ]
+      }
+    ]
+  }
+}
