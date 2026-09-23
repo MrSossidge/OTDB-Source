@@ -1,0 +1,234 @@
+{
+  "generatedAt": "2026-09-22T22:52:30Z",
+  "generator": "otdb-downloader 2.0.0",
+  "categories_snapshot": "raw/categories/categories_20260922T225230Z.json",
+  "totals": {
+    "raw_batches": 2,
+    "raw_records": 9,
+    "duplicate_records_removed": 0,
+    "unique_records": 9,
+    "valid": 5,
+    "rejected": 4,
+    "records_with_warnings": 2
+  },
+  "rejection_reasons": {
+    "insufficient_incorrect_answers": 1,
+    "duplicate_answers": 1,
+    "duplicate_question": 1,
+    "invalid_boolean_answers": 1
+  },
+  "warning_reasons": {
+    "text_normalised": 2
+  },
+  "issue_descriptions": {
+    "malformed_record": {
+      "severity": "error",
+      "description": "Record is not a JSON object or a field has the wrong type"
+    },
+    "missing_question": {
+      "severity": "error",
+      "description": "Question text is missing"
+    },
+    "empty_question": {
+      "severity": "error",
+      "description": "Question text is empty"
+    },
+    "missing_correct_answer": {
+      "severity": "error",
+      "description": "Correct answer is missing"
+    },
+    "empty_correct_answer": {
+      "severity": "error",
+      "description": "Correct answer is empty"
+    },
+    "missing_incorrect_answers": {
+      "severity": "error",
+      "description": "Incorrect answers are missing"
+    },
+    "insufficient_incorrect_answers": {
+      "severity": "error",
+      "description": "Fewer incorrect answers than the question type requires"
+    },
+    "unexpected_incorrect_answer_count": {
+      "severity": "warning",
+      "description": "More incorrect answers than the question type normally has"
+    },
+    "empty_incorrect_answer": {
+      "severity": "error",
+      "description": "An incorrect answer is empty"
+    },
+    "duplicate_answers": {
+      "severity": "error",
+      "description": "Two or more answers are identical (case/whitespace-insensitive)"
+    },
+    "invalid_boolean_answers": {
+      "severity": "error",
+      "description": "True/false question does not have exactly True and False as answers"
+    },
+    "unsupported_type": {
+      "severity": "error",
+      "description": "Question type is not 'multiple' or 'boolean'"
+    },
+    "invalid_difficulty": {
+      "severity": "error",
+      "description": "Difficulty is not easy, medium or hard"
+    },
+    "invalid_category": {
+      "severity": "error",
+      "description": "Category is missing or not in the OpenTDB category list"
+    },
+    "category_mismatch": {
+      "severity": "error",
+      "description": "Record category does not match the category it was downloaded from"
+    },
+    "malformed_text": {
+      "severity": "error",
+      "description": "Text contains undecodable bytes, control characters or double-escaped entities"
+    },
+    "suspicious_encoding": {
+      "severity": "warning",
+      "description": "Text contains sequences that look like leftover percent-encoding"
+    },
+    "duplicate_question": {
+      "severity": "error",
+      "description": "Same question text as an earlier record"
+    },
+    "text_normalised": {
+      "severity": "warning",
+      "description": "Whitespace or HTML entities were normalised during cleaning"
+    }
+  },
+  "by_category": [
+    {
+      "id": 9,
+      "name": "General Knowledge",
+      "api_reported_total": 7,
+      "download_status": "complete",
+      "finish_reason": "exhausted (API code 4: token empty)",
+      "downloaded": 7,
+      "valid": 4,
+      "rejected": 3,
+      "multiple": 3,
+      "boolean": 1,
+      "easy": 2,
+      "medium": 2,
+      "hard": 0
+    },
+    {
+      "id": 18,
+      "name": "Science: Computers",
+      "api_reported_total": 2,
+      "download_status": "complete",
+      "finish_reason": "exhausted (API code 4: token empty)",
+      "downloaded": 2,
+      "valid": 1,
+      "rejected": 1,
+      "multiple": 1,
+      "boolean": 0,
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+    }
+  ],
+  "by_difficulty": {
+    "easy": {
+      "downloaded": 4,
+      "valid": 3,
+      "rejected": 1
+    },
+    "hard": {
+      "downloaded": 1,
+      "rejected": 1
+    },
+    "medium": {
+      "downloaded": 4,
+      "valid": 2,
+      "rejected": 2
+    }
+  },
+  "by_type": {
+    "boolean": {
+      "downloaded": 2,
+      "valid": 1,
+      "rejected": 1
+    },
+    "multiple": {
+      "downloaded": 7,
+      "valid": 4,
+      "rejected": 3
+    }
+  },
+  "rejected_records": [
+    {
+      "id": "otdb-e313a859ce32534a",
+      "category_id": 9,
+      "question": "(Synthetic sample, flawed) Which record is missing two incorrect answers?",
+      "correct_answer": "This one",
+      "issues": [
+        {
+          "code": "insufficient_incorrect_answers",
+          "severity": "error",
+          "detail": "1 of 3 required for 'multiple'"
+        }
+      ],
+      "raw_batch": "raw/category_09/batch_00001.json",
+      "raw_index": 4
+    },
+    {
+      "id": "otdb-a743648d941343a1",
+      "category_id": 9,
+      "question": "(Synthetic sample, flawed) Which record repeats an answer?",
+      "correct_answer": "Repeated",
+      "issues": [
+        {
+          "code": "duplicate_answers",
+          "severity": "error",
+          "detail": "'Repeated', 'repeated'"
+        }
+      ],
+      "raw_batch": "raw/category_09/batch_00001.json",
+      "raw_index": 5
+    },
+    {
+      "id": "otdb-5a70af8d5585ee59",
+      "category_id": 9,
+      "question": "What is Cuba's official, most widely spoken language?",
+      "correct_answer": "Spanish (Cuban)",
+      "issues": [
+        {
+          "code": "duplicate_question",
+          "severity": "error",
+          "detail": "same text as otdb-bf2411669b0d74d5 (different correct answer)"
+        }
+      ],
+      "raw_batch": "raw/category_09/batch_00001.json",
+      "raw_index": 6
+    },
+    {
+      "id": "otdb-b36e198acc6e8052",
+      "category_id": 18,
+      "question": "(Synthetic sample, flawed) A true/false question with an invalid answer set.",
+      "correct_answer": "Yes",
+      "issues": [
+        {
+          "code": "invalid_boolean_answers",
+          "severity": "error",
+          "detail": "correct='Yes' incorrect=['No']"
+        }
+      ],
+      "raw_batch": "raw/category_18/batch_00001.json",
+      "raw_index": 1
+    }
+  ],
+  "last_runs": [
+    {
+      "started_at": "2026-09-22T22:52:30Z",
+      "finished_at": "2026-09-22T22:52:30Z",
+      "outcome": "complete",
+      "new_records": 9,
+      "http_requests": 8,
+      "update": false,
+      "message": ""
+    }
+  ]
+}

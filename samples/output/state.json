@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "created_at": "2026-09-22T22:52:30Z",
+  "updated_at": "2026-09-22T22:52:30Z",
+  "token": "<redacted>",
+  "token_obtained_at": "2026-09-22T22:52:30Z",
+  "categories": {
+    "9": {
+      "status": "complete",
+      "token_seen": 7,
+      "requests_total": 2,
+      "name": "General Knowledge",
+      "reported_total": 7,
+      "reported_counts": {
+        "total_question_count": 7,
+        "total_easy_question_count": 7,
+        "total_medium_question_count": 0,
+        "total_hard_question_count": 0
+      },
+      "last_error": null,
+      "finish_reason": "exhausted (API code 4: token empty)",
+      "stored_unique": 7,
+      "completed_at": "2026-09-22T22:52:30Z"
+    },
+    "18": {
+      "status": "complete",
+      "token_seen": 2,
+      "requests_total": 2,
+      "name": "Science: Computers",
+      "reported_total": 2,
+      "reported_counts": {
+        "total_question_count": 2,
+        "total_easy_question_count": 2,
+        "total_medium_question_count": 0,
+        "total_hard_question_count": 0
+      },
+      "last_error": null,
+      "finish_reason": "exhausted (API code 4: token empty)",
+      "stored_unique": 2,
+      "completed_at": "2026-09-22T22:52:30Z"
+    }
+  },
+  "runs": [
+    {
+      "started_at": "2026-09-22T22:52:30Z",
+      "finished_at": "2026-09-22T22:52:30Z",
+      "outcome": "complete",
+      "new_records": 9,
+      "http_requests": 8,
+      "update": false,
+      "message": ""
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "format": "otdb-clean-questions",
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-22T22:52:30Z",
+  "generator": "otdb-downloader 2.0.0",
+  "attribution": {
+    "source": "Open Trivia Database",
+    "url": "https://opentdb.com/",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notice": "Questions from the Open Trivia Database (opentdb.com), licensed under CC BY-SA 4.0. Text was decoded and whitespace-normalised; records failing validation were excluded."
+  },
+  "records": [
+    {
+      "id": "otdb-502608b94dc57d31",
+      "category": {
+        "id": 9,
+        "name": "General Knowledge",
+        "downloadedAs": "General Knowledge"
+      },
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following carbonated soft drinks were introduced first?",
+      "correct_answer": "Dr. Pepper",
+      "incorrect_answers": [
+        "Coca-Cola",
+        "Sprite",
+        "Mountain Dew"
+      ],
+      "valid": true,
+      "issues": [],
+      "source": {
+        "raw_batch": "raw/category_09/batch_00001.json",
+        "raw_index": 0,
+        "fetched_at": "2026-09-22T22:52:30Z"
+      }
+    },
+    {
+      "id": "otdb-b94051f2db8a9377",
+      "category": {
+        "id": 9,
+        "name": "General Knowledge",
+        "downloadedAs": "General Knowledge"
+      },
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What are the tallest twin buildings in the world, with a height of 1,483 ft (451.9 m)?",
+      "correct_answer": "Petronas Twin Towers, Malaysia",
+      "incorrect_answers": [
+        "Emirates Towers, United Arab Emirates",
+        "Huaguoyuan Towers, China",
+        "Palm Towers, Qatar"
+      ],
+      "valid": true,
+      "issues": [],
+      "source": {
+        "raw_batch": "raw/category_09/batch_00001.json",
+        "raw_index": 1,
+        "fetched_at": "2026-09-22T22:52:30Z"
+      }
+    },
+    {
+      "id": "otdb-bf2411669b0d74d5",
+      "category": {
+        "id": 9,
+        "name": "General Knowledge",
+        "downloadedAs": "General Knowledge"
+      },
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is Cuba's official, most widely spoken language?",
+      "correct_answer": "Spanish",
+      "incorrect_answers": [
+        "Portuguese",
+        "French",
+        "Italian"
+      ],
+      "valid": true,
+      "issues": [],
+      "source": {
+        "raw_batch": "raw/category_09/batch_00001.json",
+        "raw_index": 2,
+        "fetched_at": "2026-09-22T22:52:30Z"
+      }
+    },
+    {
+      "id": "otdb-0cc15402953433ba",
+      "category": {
+        "id": 9,
+        "name": "General Knowledge",
+        "downloadedAs": "General Knowledge"
+      },
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "(Synthetic sample) Water boils at 100 °C at sea level.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ],
+      "valid": true,
+      "issues": [],
+      "source": {
+        "raw_batch": "raw/category_09/batch_00001.json",
+        "raw_index": 3,
+        "fetched_at": "2026-09-22T22:52:30Z"
+      }
+    },
+    {
+      "id": "otdb-e313a859ce32534a",
+      "category": {
+        "id": 9,
+        "name": "General Knowledge",
+        "downloadedAs": "General Knowledge"
+      },
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "(Synthetic sample, flawed) Which record is missing two incorrect answers?",
+      "correct_answer": "This one",
+      "incorrect_answers": [
+        "Not this one"
+      ],
+      "valid": false,
+      "issues": [
+        {
+          "code": "insufficient_incorrect_answers",
+          "severity": "error",
+          "detail": "1 of 3 required for 'multiple'"
+        }
+      ],
+      "source": {
+        "raw_batch": "raw/category_09/batch_00001.json",
+        "raw_index": 4,
+        "fetched_at": "2026-09-22T22:52:30Z"
+      }
+    },
+    {
+      "id": "otdb-a743648d941343a1",
+      "category": {
+        "id": 9,
+        "name": "General Knowledge",
+        "downloadedAs": "General Knowledge"
+      },
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "(Synthetic sample, flawed) Which record repeats an answer?",
+      "correct_answer": "Repeated",
+      "incorrect_answers": [
+        "repeated",
+        "Other",
+        "Another"
+      ],
+      "valid": false,
+      "issues": [
+        {
+          "code": "duplicate_answers",
+          "severity": "error",
+          "detail": "'Repeated', 'repeated'"
+        },
+        {
+          "code": "text_normalised",
+          "severity": "warning",
+          "detail": "incorrect_answers[0]:whitespace_normalised"
+        }
+      ],
+      "source": {
+        "raw_batch": "raw/category_09/batch_00001.json",
+        "raw_index": 5,
+        "fetched_at": "2026-09-22T22:52:30Z"
+      }
+    },
+    {
+      "id": "otdb-5a70af8d5585ee59",
+      "category": {
+        "id": 9,
+        "name": "General Knowledge",
+        "downloadedAs": "General Knowledge"
+      },
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is Cuba's official, most widely spoken language?",
+      "correct_answer": "Spanish (Cuban)",
+      "incorrect_answers": [
+        "English",
+        "Creole",
+        "Catalan"
+      ],
+      "valid": false,
+      "issues": [
+        {
+          "code": "duplicate_question",
+          "severity": "error",
+          "detail": "same text as otdb-bf2411669b0d74d5 (different correct answer)"
+        }
+      ],
+      "source": {
+        "raw_batch": "raw/category_09/batch_00001.json",
+        "raw_index": 6,
+        "fetched_at": "2026-09-22T22:52:30Z"
+      }
+    },
+    {
+      "id": "otdb-dbff5dd76cbe51ee",
+      "category": {
+        "id": 18,
+        "name": "Science: Computers",
+        "downloadedAs": "Science: Computers"
+      },
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "(Synthetic sample) What does \"CPU\" stand for?",
+      "correct_answer": "Central Processing Unit",
+      "incorrect_answers": [
+        "Computer Personal Unit",
+        "Central Process Utility",
+        "Core Power Unit"
+      ],
+      "valid": true,
+      "issues": [
+        {
+          "code": "text_normalised",
+          "severity": "warning",
+          "detail": "question:html_entities_decoded"
+        }
+      ],
+      "source": {
+        "raw_batch": "raw/category_18/batch_00001.json",
+        "raw_index": 0,
+        "fetched_at": "2026-09-22T22:52:30Z"
+      }
+    },
+    {
+      "id": "otdb-b36e198acc6e8052",
+      "category": {
+        "id": 18,
+        "name": "Science: Computers",
+        "downloadedAs": "Science: Computers"
+      },
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "(Synthetic sample, flawed) A true/false question with an invalid answer set.",
+      "correct_answer": "Yes",
+      "incorrect_answers": [
+        "No"
+      ],
+      "valid": false,
+      "issues": [
+        {
+          "code": "invalid_boolean_answers",
+          "severity": "error",
+          "detail": "correct='Yes' incorrect=['No']"
+        }
+      ],
+      "source": {
+        "raw_batch": "raw/category_18/batch_00001.json",
+        "raw_index": 1,
+        "fetched_at": "2026-09-22T22:52:30Z"
+      }
+    }
+  ]
+}

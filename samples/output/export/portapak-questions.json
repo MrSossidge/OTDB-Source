@@ -1,0 +1,95 @@
+{
+  "format": "portapak-quiz-questions",
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-22T22:52:30Z",
+  "generator": "otdb-downloader 2.0.0",
+  "attribution": {
+    "source": "Open Trivia Database",
+    "url": "https://opentdb.com/",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notice": "Questions from the Open Trivia Database (opentdb.com), licensed under CC BY-SA 4.0. Text was decoded and whitespace-normalised; records failing validation were excluded."
+  },
+  "categories": [
+    {
+      "id": 9,
+      "name": "General Knowledge",
+      "questionCount": 4
+    },
+    {
+      "id": 18,
+      "name": "Science: Computers",
+      "questionCount": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "otdb-502608b94dc57d31",
+      "categoryId": 9,
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following carbonated soft drinks were introduced first?",
+      "correctAnswer": "Dr. Pepper",
+      "incorrectAnswers": [
+        "Coca-Cola",
+        "Sprite",
+        "Mountain Dew"
+      ]
+    },
+    {
+      "id": "otdb-b94051f2db8a9377",
+      "categoryId": 9,
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What are the tallest twin buildings in the world, with a height of 1,483 ft (451.9 m)?",
+      "correctAnswer": "Petronas Twin Towers, Malaysia",
+      "incorrectAnswers": [
+        "Emirates Towers, United Arab Emirates",
+        "Huaguoyuan Towers, China",
+        "Palm Towers, Qatar"
+      ]
+    },
+    {
+      "id": "otdb-bf2411669b0d74d5",
+      "categoryId": 9,
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is Cuba's official, most widely spoken language?",
+      "correctAnswer": "Spanish",
+      "incorrectAnswers": [
+        "Portuguese",
+        "French",
+        "Italian"
+      ]
+    },
+    {
+      "id": "otdb-0cc15402953433ba",
+      "categoryId": 9,
+      "category": "General Knowledge",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "(Synthetic sample) Water boils at 100 °C at sea level.",
+      "correctAnswer": "True",
+      "incorrectAnswers": [
+        "False"
+      ]
+    },
+    {
+      "id": "otdb-dbff5dd76cbe51ee",
+      "categoryId": 18,
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "(Synthetic sample) What does \"CPU\" stand for?",
+      "correctAnswer": "Central Processing Unit",
+      "incorrectAnswers": [
+        "Computer Personal Unit",
+        "Central Process Utility",
+        "Core Power Unit"
+      ]
+    }
+  ]
+}
